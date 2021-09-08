@@ -115,7 +115,7 @@ To update plugins:
 To update LunarVim:
 
 ```bash
-cd ~/.local/share/lunarvim/lvim && git pull
+git -C ~/.local/share/lunarvim/lvim pull
 :PackerSync
 ```
 
